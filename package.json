@@ -1,0 +1,79 @@
+{
+  "name": "@atlex/testing",
+  "version": "0.1.0-beta",
+  "description": "Test utilities, fakes, and Vitest matchers for Atlex apps",
+  "type": "module",
+  "license": "MIT",
+  "author": {
+    "name": "Karen Hamazaspyan",
+    "url": "https://github.com/khamazaspyan"
+  },
+  "keywords": [
+    "atlex",
+    "testing",
+    "vitest",
+    "typescript"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atlex-framework/atlex-monorepo.git",
+    "directory": "packages/testing"
+  },
+  "homepage": "https://atlex.dev",
+  "bugs": {
+    "url": "https://github.com/atlex-framework/atlex-monorepo/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "dependencies": {
+    "@atlex/auth": "workspace:*",
+    "@atlex/cache": "workspace:*",
+    "@atlex/core": "workspace:*",
+    "@atlex/log": "workspace:*",
+    "@atlex/mail": "workspace:*",
+    "@atlex/notifications": "workspace:*",
+    "@atlex/orm": "workspace:*",
+    "@atlex/queue": "workspace:*",
+    "@atlex/storage": "workspace:*",
+    "@faker-js/faker": "^9.9.0",
+    "supertest": "^7.1.0"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./setup": {
+      "types": "./dist/setup.d.ts",
+      "default": "./dist/setup.js"
+    },
+    "./coverage": {
+      "types": "./dist/vitest-config/vitest.shared.d.ts",
+      "default": "./dist/vitest-config/vitest.shared.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run -c vitest.config.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "prepublishOnly": "pnpm run typecheck && pnpm run build"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/supertest": "^6.0.2",
+    "express": "^5.1.0",
+    "@vitest/coverage-v8": "^3.2.4",
+    "knex": "^3.1.0",
+    "vitest": "^3.2.4"
+  }
+}
