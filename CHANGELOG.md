@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.2.0
+
+### Minor Changes
+
+- c2a96be: Fix CLI
+
+### Patch Changes
+
+- Updated dependencies [c2a96be]
+  - @atlex/auth@0.2.0
+  - @atlex/cache@1.0.0
+  - @atlex/core@0.2.0
+  - @atlex/log@1.0.0
+  - @atlex/mail@1.0.0
+  - @atlex/notifications@1.0.0
+  - @atlex/orm@1.0.0
+  - @atlex/queue@0.2.0
+  - @atlex/storage@1.0.0
+
 ## 0.1.0-beta
 
 Initial published line for this package (pre-1.0).
