@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.1.3
+
+### Patch Changes
+
+- fac4c29: Update documentation
+- Updated dependencies [fac4c29]
+  - @atlex/auth@0.1.3
+  - @atlex/cache@0.1.3
+  - @atlex/core@0.1.3
+  - @atlex/log@0.1.3
+  - @atlex/mail@0.1.3
+  - @atlex/notifications@0.1.3
+  - @atlex/orm@0.1.3
+  - @atlex/queue@0.1.3
+  - @atlex/storage@0.1.3
+
 ## 0.1.2
 
 ### Patch Changes
