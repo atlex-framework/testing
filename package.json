@@ -1,6 +1,6 @@
 {
   "name": "@atlex/testing",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Test utilities, fakes, and Vitest matchers for Atlex apps",
   "type": "module",
   "license": "MIT",
