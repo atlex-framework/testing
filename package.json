@@ -11,7 +11,20 @@
   "keywords": [
     "atlex",
     "testing",
+    "test",
+    "unit-testing",
+    "integration-testing",
+    "http-testing",
+    "api-testing",
+    "test-fakes",
+    "test-mocks",
     "vitest",
+    "supertest-alternative",
+    "http-client-test",
+    "laravel-testing",
+    "laravel-alternative",
+    "nodejs",
+    "javascript",
     "typescript"
   ],
   "engines": {
