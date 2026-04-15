@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.1.2
+
+### Patch Changes
+
+- 935a47e: Fix CLI
+- Updated dependencies [935a47e]
+  - @atlex/auth@0.1.2
+  - @atlex/cache@0.1.2
+  - @atlex/core@0.1.2
+  - @atlex/log@0.1.2
+  - @atlex/mail@0.1.2
+  - @atlex/notifications@0.1.2
+  - @atlex/orm@0.1.2
+  - @atlex/queue@0.1.2
+  - @atlex/storage@0.1.2
+
 ## 0.1.0-beta
 
 Initial published line for this package (pre-1.0).
