@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.2.1
+
+### Patch Changes
+
+- 1256d74: Update orm, add time()
+- Updated dependencies [1256d74]
+  - @atlex/orm@0.2.1
+  - @atlex/auth@0.2.1
+  - @atlex/cache@0.2.1
+  - @atlex/core@0.2.1
+  - @atlex/log@0.2.1
+  - @atlex/mail@0.2.1
+  - @atlex/notifications@0.2.1
+  - @atlex/queue@0.2.1
+  - @atlex/storage@0.2.1
+
 ## 0.2.0
 
 ### Minor Changes
